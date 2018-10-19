@@ -1,8 +1,8 @@
 <h1>recipes.erb</h1>
 <h2><%= @recipe.name %></h2>
 <br>
-<p><%= @recipe.ingredients %></p>
-<p><%= @recipe.cook_time %></p>
+<p>Ingredients: <%= @recipe.ingredients %></p>
+<p>Cook time: <%= @recipe.cook_time %></p>
 
 <a href="/edit.erb">Edit this recipe</a>
 <form method="post" action="/delete">
