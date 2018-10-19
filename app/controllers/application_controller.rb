@@ -39,4 +39,9 @@ class ApplicationController < Sinatra::Base
       erb :'recipes/edit'
   end
 
+  post '/recipes/:id/edit' do
+
+  end
+
+
 end
