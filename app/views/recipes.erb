@@ -3,6 +3,8 @@
 <br>
 <p>Ingredients: <%= @recipe.ingredients %></p>
 <p>Cook time: <%= @recipe.cook_time %></p>
+<br>
+<br>
+<p><a href="/edit.erb">Edit this recipe</a> | <a href="/recipes/<%=@recipe.id%>/delete">Delete this recipe</a></p>
 
-<a href="/edit.erb">Edit this recipe</a>
-<a href="/recipes/<%=@recipe.id%>/delete">Delete this recipe</a>
+
